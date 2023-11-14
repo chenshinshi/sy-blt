@@ -1,0 +1,17 @@
+{
+    "name": "Sticker",
+    "button": {
+        "qsr": "Light Pink",
+        "qsy": "Light Yellow",
+        "qsg": "Light Green",
+        "qsb": "Light Blue",
+        "ssr": "Dark Red",
+        "ssy": "Dark Orange",
+        "ssg": "Dark Green",
+        "ssb": "Dark Blue",
+        "jb": "Gradient Yellow",
+        "ay": "ShueyRhonRhon",
+        "ayx": "BingDwenDwen",
+        "default": "Back to default"
+    }
+}

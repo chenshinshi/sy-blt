@@ -1,0 +1,172 @@
+
+/* -----------------------------------------------------------便利贴样式------------------------------------------------- */
+/* ————————————————————浅色便利贴———————————————————— */
+/* 设置统一属性 */
+.protyle-wysiwyg [data-node-id][custom-blt*="qs"] {
+    color: gray !important;
+    padding: 20px 10px !important;
+    /* margin: 20px 5px !important; */
+    width: 300px !important;
+    min-height: fit-content !important;
+    position: relative;
+    z-index: 2;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);
+    box-sizing: border-box !important;
+    text-align: justify;
+    border-radius: 4px;
+}
+/* 单独设置属性 */
+.protyle-wysiwyg [data-node-id][custom-blt="qsr"] {
+    background-color: rgba(252, 231, 233) !important;
+    border-top: 3px solid  #ff0000;
+}
+
+.protyle-wysiwyg [data-node-id][custom-blt="qsy"] {
+    background-color: rgba(254, 229, 172) !important;
+    border-top: 3px solid  #e4c411;
+}
+
+.protyle-wysiwyg [data-node-id][custom-blt="qsb"] {
+    background-color:rgba(207, 221, 254) !important;
+    border-top: 3px solid #0056ff;
+}
+
+.protyle-wysiwyg [data-node-id][custom-blt="qsg"] {
+    background-color: rgba(204, 242, 200) !important;
+    border-top: 3px solid #00d208;
+}
+/* ————————————————————深色便利贴———————————————————— */
+/* 设置统一属性 */
+.protyle-wysiwyg [data-node-id][custom-blt*=ss] {
+    color: white !important;
+    border-left: 0px solid transparent !important;
+    box-sizing: border-box !important;
+    border-radius:4px !important;
+    box-shadow:  8px 16px 16px hsl(0deg 0% 0% / 0.25);
+    padding: 20px 10px !important;
+    /* margin: 20px 5px !important; */
+    position: relative;
+    z-index: 2;
+    width: 300px !important;
+    min-height: fit-content !important;
+    border-top: 3px solid black !important;
+    text-align: justify;
+}
+
+/* 单独设置属性 */
+.protyle-wysiwyg [data-node-id][custom-blt="ssr"] {
+    background: #c81a31 !important;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 0),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 0),
+        linear-gradient(hsla(0, 0%, 100%, .1)1px,
+            transparent 0),
+        linear-gradient(90deg, hsla(0, 0%, 100%, .1) 1px,
+            transparent 0) !important;
+    background-size: 75px 75px, 75px 75px,
+        15px 15px, 15px 15px !important;
+}
+
+.protyle-wysiwyg [data-node-id][custom-blt="ssy"] {
+    background: #ec6f05 !important;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 0),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 0),
+        linear-gradient(hsla(0, 0%, 100%, .1)1px,
+            transparent 0),
+        linear-gradient(90deg, hsla(0, 0%, 100%, .1) 1px,
+            transparent 0) !important;
+    background-size: 75px 75px, 75px 75px,
+        15px 15px, 15px 15px !important;
+}
+
+.protyle-wysiwyg [data-node-id][custom-blt="ssb"] {
+    background: #384b76 !important;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 0),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 0),
+        linear-gradient(hsla(0, 0%, 100%, .1)1px,
+            transparent 0),
+        linear-gradient(90deg, hsla(0, 0%, 100%, .1) 1px,
+            transparent 0) !important;
+    background-size: 75px 75px, 75px 75px,
+        15px 15px, 15px 15px !important;
+}
+
+.protyle-wysiwyg [data-node-id][custom-blt="ssg"] {
+    background: #325342 !important;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 0),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 0),
+        linear-gradient(hsla(0, 0%, 100%, .1)1px,
+            transparent 0),
+        linear-gradient(90deg, hsla(0, 0%, 100%, .1) 1px,
+            transparent 0) !important;
+    background-size: 75px 75px, 75px 75px,
+        15px 15px, 15px 15px !important;
+}
+/* ————————————————————径向渐变背景—————————————— */
+.protyle-wysiwyg [data-node-id][custom-blt~=jb] {
+    height: 300px;
+    width: 300px;
+    overflow: scroll;
+    background-image: radial-gradient(#f8ca6c 20%, #fcf4df 80%);
+    box-shadow: 8px 16px 16px hsl(0deg 0% 0% / 0.25);
+    padding: 20px 10px;
+    margin: 30px 5px;
+    position: relative;
+    z-index: 2;
+    box-sizing: border-box;
+    color: rgb(80, 79, 79);
+    text-align: justify;
+}
+/* ——————————————————奥运限定版背景（冰墩墩和雪容融）—————————————— */
+.protyle-wysiwyg [data-node-id][custom-blt~=ay] {
+    background-image: url("plugins/sy-blt/src/ay.jpg");
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: #fefcfe;
+    width: 300px;
+    height: 300px;
+    /* 固定高度，超出后滚动，因为是图片背景，所以超级块后会拉伸背景，不建议用超级块 */
+    overflow-y: scroll;
+    box-shadow: 8px 16px 16px hsl(0deg 0% 0% / 0.25);
+    position: relative;
+    z-index: 2;
+    padding: 20px 10px;
+    margin: 20px 5px !important;
+    text-align: justify;
+}
+
+.protyle-wysiwyg [data-node-id][custom-blt~=ay2] {
+    background-image: url('plugins/sy-blt/src/ay2.jpg');
+    background-size: 300px auto;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    color: #fefcfe;
+    width: 300px;
+    height: 300px;
+    overflow-y: scroll;
+    box-shadow:8px 16px 16px hsl(0deg 0% 0% / 0.25);
+    position: relative;
+    z-index: 2;
+    padding: 20px 10px !important;
+    margin: 20px 5px !important;
+    text-align: justify;
+}
+
+/* 修改奥运限定背景中无序列表前面符号·的颜色 */
+.list[data-node-id][custom-blt~=ay] .protyle-action svg,
+.list[data-node-id][custom-blt~=ay2] .protyle-action svg {
+    color: white;
+}
+
+/* 设置滚动条的样式 */
+[data-node-id][custom-blt~=ay]::-webkit-scrollbar-thumb,
+[data-node-id][custom-blt~=ay2]::-webkit-scrollbar-thumb {
+    background-color:#ffffffb3;
+}
+
+/* ——————————————————奥运限定版背景（冰墩墩和雪容融） END—————————————— */
+

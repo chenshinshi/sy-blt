@@ -1,0 +1,24 @@
+{
+  "name": "sy-blt",
+  "author": "UserZYF",
+  "url": "https://github.com/chenshinshi/sy-blt",
+  "version": "0.1.0",
+  "minAppVersion": "2.10.11",
+  "backends": ["all"],
+  "frontends": ["all"],
+  "displayName": {
+    "en_US": "Sticker",
+    "zh_CN": "便利贴"
+  },
+  "description": {
+    "en_US": "A sticker style for blocks.",
+    "zh_CN": "普通块的便利贴样式。"
+  },
+  "readme": {
+    "en_US": "README.md",
+    "zh_CN": "README_zh_CN.md"
+  },
+  "keywords": [
+    "sticker"
+  ]
+}
