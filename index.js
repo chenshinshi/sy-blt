@@ -30,7 +30,7 @@ function qsr(selectid) {
   button.setAttribute("data-node-id", selectid);
   button.setAttribute("custom-attr-name", "blt");
   button.setAttribute("custom-attr-value", "qsr");
-  button.innerHTML = `<span class="b3-menu__label">🔴${i18n.button.qsr}</span>`;
+  button.innerHTML = `<span class="b3-menu__label">🦉${i18n.button.qsr}</span>`;
   return button;
 }
 function qsy(selectid) {
@@ -111,7 +111,7 @@ function ay(selectid) {
   button.setAttribute("data-node-id", selectid);
   button.setAttribute("custom-attr-name", "blt");
   button.setAttribute("custom-attr-value", "ay");
-  button.innerHTML = `<span class="b3-menu__label">🏮${i18n.button.ay}</span>`;
+  button.innerHTML = `<span class="b3-menu__label">🟤${i18n.button.ay}</span>`;
   return button;
 }
 function ayx(selectid) {
@@ -120,7 +120,7 @@ function ayx(selectid) {
   button.setAttribute("data-node-id", selectid);
   button.setAttribute("custom-attr-name", "blt");
   button.setAttribute("custom-attr-value", "ay2");
-  button.innerHTML = `<span class="b3-menu__label">❄️${i18n.button.ayx}</span>`;
+  button.innerHTML = `<span class="b3-menu__label">🖼️${i18n.button.ayx}</span>`;
   return button;
 }
 function Defaultblt(selectid) {

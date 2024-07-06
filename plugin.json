@@ -2,7 +2,7 @@
   "name": "sy-blt",
   "author": "UserZYF",
   "url": "https://github.com/chenshinshi/sy-blt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "minAppVersion": "2.10.11",
   "backends": ["all"],
   "frontends": ["all"],
